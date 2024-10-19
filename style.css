@@ -1,0 +1,141 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+/*Header Layout*/
+.head {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px;
+}
+.btn1,
+.btn2 {
+  padding: 10px 30px;
+  border: none;
+  border-radius: 20px;
+  background-color: aliceblue;
+  font-size: 15px;
+  font-weight: 600;
+}
+.center {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px;
+  align-items: center;
+  justify-content: center;
+}
+.btn3 {
+  padding: 10px 10px;
+  border: none;
+  border-radius: 20px;
+  background-color: aliceblue;
+  font-size: 15px;
+  font-weight: 600;
+}
+.int {
+  padding: 5px;
+  border: none;
+  font-size: 15px;
+  font-weight: 600;
+}
+.btn4 {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 20px;
+  background-color: aliceblue;
+  font-size: 15px;
+  font-weight: 600;
+}
+.right {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+}
+/*Tab Layout*/
+.tab {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.t1,
+.t2,
+.t3,
+.t4 {
+  padding: 15px 20px;
+  text-align: center;
+  border: 1px solid rgb(180, 215, 247);
+  border-radius: 30px;
+  box-shadow: 10px 10px 10px rgb(184, 184, 240);
+  font-size: 15px;
+  font-weight: 600;
+}
+.t1,
+.t2,
+.t3 {
+  border-right: none;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  margin-right: -30px;
+  margin-left: -40px;
+}
+.t2,
+.t3,
+.t4 {
+  border-left: none;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+/*Images layout*/
+.icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 30px;
+  gap: 100px;
+}
+/*cards Layout*/
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 30px;
+  gap: 30px;
+  justify-content: center;
+}
+.c1 {
+  width: 300px;
+  box-sizing: border-box;
+  position: relative;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.i1 {
+  width: 100%;
+  position: relative;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.bi {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+h3 {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: -10px;
+  margin-left: 10px;
+}
+p {
+  color: rgb(92, 91, 91);
+  margin-left: 10px;
+}
+h4 {
+  font-size: 20px;
+  font-weight: 800;
+  margin-top: -5px;
+  margin-left: 10px;
+}
